@@ -145,6 +145,14 @@
 // ================================================================
 
 
+import { Routes, Route, NavLink } from "react-router-dom";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Registration from "./pages/Registration";
+
+
+
 export default function App() {
   return (
     <div className="app">
